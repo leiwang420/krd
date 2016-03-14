@@ -4,7 +4,7 @@ using UnityEngine;
 public class DecoMushie : MonoBehaviour
 {
     private PackedSprite sprite;
-    private Stage19 stage;
+    //private Stage19 stage;
 
     public DecoMushie()
     {
