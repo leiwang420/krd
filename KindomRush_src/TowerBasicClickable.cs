@@ -7,11 +7,11 @@ using UnityEngine;
 public class TowerBasicClickable : Clickable
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map0;
+    private static Dictionary<string, int> switchmap0;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map1;
+    private static Dictionary<string, int> switchmap1;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map2;
+    private static Dictionary<string, int> switchmap2;
     public TowerButton lockedButton;
     protected Quickmenu menu;
     protected Transform rangeCircle;
@@ -51,7 +51,7 @@ public class TowerBasicClickable : Clickable
         {
             goto Label_01F3;
         }
-        if (<>f__switch$map2 != null)
+        if (switchmap2 != null)
         {
             goto Label_00E7;
         }
@@ -64,9 +64,9 @@ public class TowerBasicClickable : Clickable
         dictionary.Add("BarrackLvl3", 5);
         dictionary.Add("MageLvl2", 6);
         dictionary.Add("MageLvl3", 7);
-        <>f__switch$map2 = dictionary;
+        switchmap2 = dictionary;
     Label_00E7:
-        if (<>f__switch$map2.TryGetValue(str2, &num2) == null)
+        if (switchmap2.TryGetValue(str2, &num2) == null)
         {
             goto Label_01F3;
         }
@@ -145,7 +145,7 @@ public class TowerBasicClickable : Clickable
         {
             goto Label_01D7;
         }
-        if (<>f__switch$map1 != null)
+        if (switchmap1 != null)
         {
             goto Label_008C;
         }
@@ -159,9 +159,9 @@ public class TowerBasicClickable : Clickable
         dictionary.Add("MageLvl1", 6);
         dictionary.Add("MageLvl2", 7);
         dictionary.Add("locked", 8);
-        <>f__switch$map1 = dictionary;
+        switchmap1 = dictionary;
     Label_008C:
-        if (<>f__switch$map1.TryGetValue(str, &num) == null)
+        if (switchmap1.TryGetValue(str, &num) == null)
         {
             goto Label_01D7;
         }
@@ -234,7 +234,7 @@ public class TowerBasicClickable : Clickable
         {
             goto Label_0163;
         }
-        if (<>f__switch$map0 != null)
+        if (switchmap0 != null)
         {
             goto Label_009E;
         }
@@ -247,9 +247,9 @@ public class TowerBasicClickable : Clickable
         dictionary.Add("BarrackLvl2", 5);
         dictionary.Add("MageLvl1", 6);
         dictionary.Add("MageLvl2", 7);
-        <>f__switch$map0 = dictionary;
+        switchmap0 = dictionary;
     Label_009E:
-        if (<>f__switch$map0.TryGetValue(str2, &num) == null)
+        if (switchmap0.TryGetValue(str2, &num) == null)
         {
             goto Label_0163;
         }

@@ -55,8 +55,8 @@ public class SpriteAnimationPump : MonoBehaviour
     [DebuggerHidden]
     protected static IEnumerator AnimationPump()
     {
-        <AnimationPump>c__Iterator1 iterator;
-        iterator = new <AnimationPump>c__Iterator1();
+        _AnimationPump_c__Iterator1 iterator;
+        iterator = new _AnimationPump_c__Iterator1();
         return iterator;
     }
 
@@ -111,9 +111,9 @@ public class SpriteAnimationPump : MonoBehaviour
     [DebuggerHidden]
     protected IEnumerator PumpStarter()
     {
-        <PumpStarter>c__Iterator0 iterator;
-        iterator = new <PumpStarter>c__Iterator0();
-        iterator.<>f__this = this;
+        _PumpStarter_c__Iterator0 iterator;
+        iterator = new _PumpStarter_c__Iterator0();
+        iterator.f__this = this;
         return iterator;
     }
 
@@ -209,12 +209,12 @@ public class SpriteAnimationPump : MonoBehaviour
     }
 
     [CompilerGenerated]
-    private sealed class <AnimationPump>c__Iterator1 : IEnumerator, IDisposable, IEnumerator<object>
+    private sealed class _AnimationPump_c__Iterator1 : IEnumerator, IDisposable, IEnumerator<object>
     {
-        internal object $current;
-        internal int $PC;
+        internal object _current;
+        internal int _PC;
 
-        public <AnimationPump>c__Iterator1()
+        public _AnimationPump_c__Iterator1()
         {
             base..ctor();
             return;
@@ -223,7 +223,7 @@ public class SpriteAnimationPump : MonoBehaviour
         [DebuggerHidden]
         public void Dispose()
         {
-            this.$PC = -1;
+            this._PC = -1;
             return;
         }
 
@@ -231,8 +231,8 @@ public class SpriteAnimationPump : MonoBehaviour
         {
             uint num;
             bool flag;
-            num = this.$PC;
-            this.$PC = -1;
+            num = this._PC;
+            this._PC = -1;
             switch (num)
             {
                 case 0:
@@ -267,8 +267,8 @@ public class SpriteAnimationPump : MonoBehaviour
         Label_0068:
             SpriteAnimationPump.instance.OnApplicationPause(Time.timeScale == 0f);
         Label_007E:
-            this.$current = null;
-            this.$PC = 1;
+            this._current = null;
+            this._PC = 1;
             goto Label_0116;
         Label_0091:
             SpriteAnimationPump.time = Time.realtimeSinceStartup;
@@ -291,7 +291,7 @@ public class SpriteAnimationPump : MonoBehaviour
                 goto Label_0036;
             }
             SpriteAnimationPump.pumpIsDone = 1;
-            this.$PC = -1;
+            this._PC = -1;
         Label_0114:
             return 0;
         Label_0116:
@@ -310,7 +310,7 @@ public class SpriteAnimationPump : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
 
@@ -319,19 +319,19 @@ public class SpriteAnimationPump : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
     }
 
     [CompilerGenerated]
-    private sealed class <PumpStarter>c__Iterator0 : IEnumerator, IDisposable, IEnumerator<object>
+    private sealed class _PumpStarter_c__Iterator0 : IEnumerator, IDisposable, IEnumerator<object>
     {
-        internal object $current;
-        internal int $PC;
-        internal SpriteAnimationPump <>f__this;
+        internal object _current;
+        internal int _PC;
+        internal SpriteAnimationPump f__this;
 
-        public <PumpStarter>c__Iterator0()
+        public _PumpStarter_c__Iterator0()
         {
             base..ctor();
             return;
@@ -340,7 +340,7 @@ public class SpriteAnimationPump : MonoBehaviour
         [DebuggerHidden]
         public void Dispose()
         {
-            this.$PC = -1;
+            this._PC = -1;
             return;
         }
 
@@ -348,8 +348,8 @@ public class SpriteAnimationPump : MonoBehaviour
         {
             uint num;
             bool flag;
-            num = this.$PC;
-            this.$PC = -1;
+            num = this._PC;
+            this._PC = -1;
             switch (num)
             {
                 case 0:
@@ -362,16 +362,16 @@ public class SpriteAnimationPump : MonoBehaviour
         Label_0021:
             goto Label_0039;
         Label_0026:
-            this.$current = null;
-            this.$PC = 1;
+            this._current = null;
+            this._PC = 1;
             goto Label_005D;
         Label_0039:
             if (SpriteAnimationPump.pumpIsDone == null)
             {
                 goto Label_0026;
             }
-            this.<>f__this.StartCoroutine(SpriteAnimationPump.AnimationPump());
-            this.$PC = -1;
+            this.f__this.StartCoroutine(SpriteAnimationPump.AnimationPump());
+            this._PC = -1;
         Label_005B:
             return 0;
         Label_005D:
@@ -390,7 +390,7 @@ public class SpriteAnimationPump : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
 
@@ -399,7 +399,7 @@ public class SpriteAnimationPump : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
     }

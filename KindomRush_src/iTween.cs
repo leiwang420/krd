@@ -9,31 +9,31 @@ public class iTween : MonoBehaviour
 {
     public string _name;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map10;
+    private static Dictionary<string, int> switchmap10;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map11;
+    private static Dictionary<string, int> switchmap11;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map12;
+    private static Dictionary<string, int> switchmap12;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map13;
+    private static Dictionary<string, int> switchmap13;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map14;
+    private static Dictionary<string, int> switchmap14;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map15;
+    private static Dictionary<string, int> switchmap15;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map16;
+    private static Dictionary<string, int> switchmap16;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map17;
+    private static Dictionary<string, int> switchmap17;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map18;
+    private static Dictionary<string, int> switchmap18;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map19;
+    private static Dictionary<string, int> switchmap19;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map1A;
+    private static Dictionary<string, int> switchmap1A;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map1B;
+    private static Dictionary<string, int> switchmap1B;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map1C;
+    private static Dictionary<string, int> switchmap1C;
     private ApplyTween apply;
     private AudioSource audioSource;
     private static GameObject cameraFade;
@@ -3142,7 +3142,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_02F3;
         }
-        if (<>f__switch$map1B != null)
+        if (switchmap1B != null)
         {
             goto Label_01EE;
         }
@@ -3150,9 +3150,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("x", 0);
         dictionary.Add("y", 1);
         dictionary.Add("z", 2);
-        <>f__switch$map1B = dictionary;
+        switchmap1B = dictionary;
     Label_01EE:
-        if (<>f__switch$map1B.TryGetValue(str, &num2) == null)
+        if (switchmap1B.TryGetValue(str, &num2) == null)
         {
             goto Label_02F3;
         }
@@ -3980,7 +3980,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map1A != null)
+        if (switchmap1A != null)
         {
             goto Label_009E;
         }
@@ -3995,9 +3995,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("punch", 7);
         dictionary.Add("look", 8);
         dictionary.Add("stab", 9);
-        <>f__switch$map1A = dictionary;
+        switchmap1A = dictionary;
     Label_009E:
-        if (<>f__switch$map1A.TryGetValue(str, &num) == null)
+        if (switchmap1A.TryGetValue(str, &num) == null)
         {
             goto Label_078F;
         }
@@ -4040,7 +4040,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map11 != null)
+        if (switchmap11 != null)
         {
             goto Label_0143;
         }
@@ -4050,9 +4050,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("vector3", 2);
         dictionary.Add("color", 3);
         dictionary.Add("rect", 4);
-        <>f__switch$map11 = dictionary;
+        switchmap11 = dictionary;
     Label_0143:
-        if (<>f__switch$map11.TryGetValue(str2, &num2) == null)
+        if (switchmap11.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4101,15 +4101,15 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map12 != null)
+        if (switchmap12 != null)
         {
             goto Label_023B;
         }
         dictionary = new Dictionary<string, int>(1);
         dictionary.Add("to", 0);
-        <>f__switch$map12 = dictionary;
+        switchmap12 = dictionary;
     Label_023B:
-        if (<>f__switch$map12.TryGetValue(str2, &num2) == null)
+        if (switchmap12.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4129,15 +4129,15 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map13 != null)
+        if (switchmap13 != null)
         {
             goto Label_02AB;
         }
         dictionary = new Dictionary<string, int>(1);
         dictionary.Add("to", 0);
-        <>f__switch$map13 = dictionary;
+        switchmap13 = dictionary;
     Label_02AB:
-        if (<>f__switch$map13.TryGetValue(str2, &num2) == null)
+        if (switchmap13.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4157,7 +4157,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map14 != null)
+        if (switchmap14 != null)
         {
             goto Label_0333;
         }
@@ -4165,9 +4165,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("to", 0);
         dictionary.Add("by", 1);
         dictionary.Add("add", 1);
-        <>f__switch$map14 = dictionary;
+        switchmap14 = dictionary;
     Label_0333:
-        if (<>f__switch$map14.TryGetValue(str2, &num2) == null)
+        if (switchmap14.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4204,7 +4204,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map15 != null)
+        if (switchmap15 != null)
         {
             goto Label_0412;
         }
@@ -4212,9 +4212,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("to", 0);
         dictionary.Add("by", 1);
         dictionary.Add("add", 2);
-        <>f__switch$map15 = dictionary;
+        switchmap15 = dictionary;
     Label_0412:
-        if (<>f__switch$map15.TryGetValue(str2, &num2) == null)
+        if (switchmap15.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4249,7 +4249,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map16 != null)
+        if (switchmap16 != null)
         {
             goto Label_04E0;
         }
@@ -4257,9 +4257,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("to", 0);
         dictionary.Add("add", 1);
         dictionary.Add("by", 2);
-        <>f__switch$map16 = dictionary;
+        switchmap16 = dictionary;
     Label_04E0:
-        if (<>f__switch$map16.TryGetValue(str2, &num2) == null)
+        if (switchmap16.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4294,7 +4294,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map17 != null)
+        if (switchmap17 != null)
         {
             goto Label_05AE;
         }
@@ -4302,9 +4302,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("position", 0);
         dictionary.Add("scale", 1);
         dictionary.Add("rotation", 2);
-        <>f__switch$map17 = dictionary;
+        switchmap17 = dictionary;
     Label_05AE:
-        if (<>f__switch$map17.TryGetValue(str2, &num2) == null)
+        if (switchmap17.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4339,7 +4339,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map18 != null)
+        if (switchmap18 != null)
         {
             goto Label_067C;
         }
@@ -4347,9 +4347,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("position", 0);
         dictionary.Add("rotation", 1);
         dictionary.Add("scale", 2);
-        <>f__switch$map18 = dictionary;
+        switchmap18 = dictionary;
     Label_067C:
-        if (<>f__switch$map18.TryGetValue(str2, &num2) == null)
+        if (switchmap18.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4384,15 +4384,15 @@ public class iTween : MonoBehaviour
         {
             goto Label_078F;
         }
-        if (<>f__switch$map19 != null)
+        if (switchmap19 != null)
         {
             goto Label_0732;
         }
         dictionary = new Dictionary<string, int>(1);
         dictionary.Add("to", 0);
-        <>f__switch$map19 = dictionary;
+        switchmap19 = dictionary;
     Label_0732:
-        if (<>f__switch$map19.TryGetValue(str2, &num2) == null)
+        if (switchmap19.TryGetValue(str2, &num2) == null)
         {
             goto Label_078F;
         }
@@ -4788,7 +4788,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_01EC;
         }
-        if (<>f__switch$map10 != null)
+        if (switchmap10 != null)
         {
             goto Label_015E;
         }
@@ -4796,9 +4796,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("x", 0);
         dictionary.Add("y", 1);
         dictionary.Add("z", 2);
-        <>f__switch$map10 = dictionary;
+        switchmap10 = dictionary;
     Label_015E:
-        if (<>f__switch$map10.TryGetValue(str, &num) == null)
+        if (switchmap10.TryGetValue(str, &num) == null)
         {
             goto Label_01EC;
         }
@@ -4949,7 +4949,7 @@ public class iTween : MonoBehaviour
         {
             goto Label_03B3;
         }
-        if (<>f__switch$map1C != null)
+        if (switchmap1C != null)
         {
             goto Label_02E9;
         }
@@ -4957,9 +4957,9 @@ public class iTween : MonoBehaviour
         dictionary.Add("x", 0);
         dictionary.Add("y", 1);
         dictionary.Add("z", 2);
-        <>f__switch$map1C = dictionary;
+        switchmap1C = dictionary;
     Label_02E9:
-        if (<>f__switch$map1C.TryGetValue(str, &num2) == null)
+        if (switchmap1C.TryGetValue(str, &num2) == null)
         {
             goto Label_03B3;
         }
@@ -6803,9 +6803,9 @@ public class iTween : MonoBehaviour
     [DebuggerHidden]
     private IEnumerator Start()
     {
-        <Start>c__Iterator4 iterator;
-        iterator = new <Start>c__Iterator4();
-        iterator.<>f__this = this;
+        _Start_c__Iterator4 iterator;
+        iterator = new _Start_c__Iterator4();
+        iterator.f__this = this;
         return iterator;
     }
 
@@ -7166,9 +7166,9 @@ public class iTween : MonoBehaviour
     [DebuggerHidden]
     private IEnumerator TweenDelay()
     {
-        <TweenDelay>c__Iterator2 iterator;
-        iterator = new <TweenDelay>c__Iterator2();
-        iterator.<>f__this = this;
+        _TweenDelay_c__Iterator2 iterator;
+        iterator = new _TweenDelay_c__Iterator2();
+        iterator.f__this = this;
         return iterator;
     }
 
@@ -7203,9 +7203,9 @@ public class iTween : MonoBehaviour
     [DebuggerHidden]
     private IEnumerator TweenRestart()
     {
-        <TweenRestart>c__Iterator3 iterator;
-        iterator = new <TweenRestart>c__Iterator3();
-        iterator.<>f__this = this;
+        _TweenRestart_c__Iterator3 iterator;
+        iterator = new _TweenRestart_c__Iterator3();
+        iterator.f__this = this;
         return iterator;
     }
 
@@ -7414,13 +7414,13 @@ public class iTween : MonoBehaviour
     }
 
     [CompilerGenerated]
-    private sealed class <Start>c__Iterator4 : IEnumerator, IDisposable, IEnumerator<object>
+    private sealed class _Start_c__Iterator4 : IEnumerator, IDisposable, IEnumerator<object>
     {
-        internal object $current;
-        internal int $PC;
-        internal iTween <>f__this;
+        internal object _current;
+        internal int _PC;
+        internal iTween f__this;
 
-        public <Start>c__Iterator4()
+        public _Start_c__Iterator4()
         {
             base..ctor();
             return;
@@ -7429,7 +7429,7 @@ public class iTween : MonoBehaviour
         [DebuggerHidden]
         public void Dispose()
         {
-            this.$PC = -1;
+            this._PC = -1;
             return;
         }
 
@@ -7437,8 +7437,8 @@ public class iTween : MonoBehaviour
         {
             uint num;
             bool flag;
-            num = this.$PC;
-            this.$PC = -1;
+            num = this._PC;
+            this._PC = -1;
             switch (num)
             {
                 case 0:
@@ -7449,16 +7449,16 @@ public class iTween : MonoBehaviour
             }
             goto Label_006A;
         Label_0021:
-            if (this.<>f__this.delay <= 0f)
+            if (this.f__this.delay <= 0f)
             {
                 goto Label_0058;
             }
-            this.$current = this.<>f__this.StartCoroutine("TweenDelay");
-            this.$PC = 1;
+            this._current = this.f__this.StartCoroutine("TweenDelay");
+            this._PC = 1;
             goto Label_006C;
         Label_0058:
-            this.<>f__this.TweenStart();
-            this.$PC = -1;
+            this.f__this.TweenStart();
+            this._PC = -1;
         Label_006A:
             return 0;
         Label_006C:
@@ -7477,7 +7477,7 @@ public class iTween : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
 
@@ -7486,19 +7486,19 @@ public class iTween : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
     }
 
     [CompilerGenerated]
-    private sealed class <TweenDelay>c__Iterator2 : IEnumerator, IDisposable, IEnumerator<object>
+    private sealed class _TweenDelay_c__Iterator2 : IEnumerator, IDisposable, IEnumerator<object>
     {
-        internal object $current;
-        internal int $PC;
-        internal iTween <>f__this;
+        internal object _current;
+        internal int _PC;
+        internal iTween f__this;
 
-        public <TweenDelay>c__Iterator2()
+        public _TweenDelay_c__Iterator2()
         {
             base..ctor();
             return;
@@ -7507,7 +7507,7 @@ public class iTween : MonoBehaviour
         [DebuggerHidden]
         public void Dispose()
         {
-            this.$PC = -1;
+            this._PC = -1;
             return;
         }
 
@@ -7515,8 +7515,8 @@ public class iTween : MonoBehaviour
         {
             uint num;
             bool flag;
-            num = this.$PC;
-            this.$PC = -1;
+            num = this._PC;
+            this._PC = -1;
             switch (num)
             {
                 case 0:
@@ -7527,19 +7527,19 @@ public class iTween : MonoBehaviour
             }
             goto Label_0081;
         Label_0021:
-            this.<>f__this.delayStarted = Time.time;
-            this.$current = new WaitForSeconds(this.<>f__this.delay);
-            this.$PC = 1;
+            this.f__this.delayStarted = Time.time;
+            this._current = new WaitForSeconds(this.f__this.delay);
+            this._PC = 1;
             goto Label_0083;
         Label_0053:
-            if (this.<>f__this.wasPaused == null)
+            if (this.f__this.wasPaused == null)
             {
                 goto Label_007A;
             }
-            this.<>f__this.wasPaused = 0;
-            this.<>f__this.TweenStart();
+            this.f__this.wasPaused = 0;
+            this.f__this.TweenStart();
         Label_007A:
-            this.$PC = -1;
+            this._PC = -1;
         Label_0081:
             return 0;
         Label_0083:
@@ -7558,7 +7558,7 @@ public class iTween : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
 
@@ -7567,19 +7567,19 @@ public class iTween : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
     }
 
     [CompilerGenerated]
-    private sealed class <TweenRestart>c__Iterator3 : IEnumerator, IDisposable, IEnumerator<object>
+    private sealed class _TweenRestart_c__Iterator3 : IEnumerator, IDisposable, IEnumerator<object>
     {
-        internal object $current;
-        internal int $PC;
-        internal iTween <>f__this;
+        internal object _current;
+        internal int _PC;
+        internal iTween f__this;
 
-        public <TweenRestart>c__Iterator3()
+        public _TweenRestart_c__Iterator3()
         {
             base..ctor();
             return;
@@ -7588,7 +7588,7 @@ public class iTween : MonoBehaviour
         [DebuggerHidden]
         public void Dispose()
         {
-            this.$PC = -1;
+            this._PC = -1;
             return;
         }
 
@@ -7596,8 +7596,8 @@ public class iTween : MonoBehaviour
         {
             uint num;
             bool flag;
-            num = this.$PC;
-            this.$PC = -1;
+            num = this._PC;
+            this._PC = -1;
             switch (num)
             {
                 case 0:
@@ -7608,18 +7608,18 @@ public class iTween : MonoBehaviour
             }
             goto Label_0086;
         Label_0021:
-            if (this.<>f__this.delay <= 0f)
+            if (this.f__this.delay <= 0f)
             {
                 goto Label_0068;
             }
-            this.<>f__this.delayStarted = Time.time;
-            this.$current = new WaitForSeconds(this.<>f__this.delay);
-            this.$PC = 1;
+            this.f__this.delayStarted = Time.time;
+            this._current = new WaitForSeconds(this.f__this.delay);
+            this._PC = 1;
             goto Label_0088;
         Label_0068:
-            this.<>f__this.loop = 1;
-            this.<>f__this.TweenStart();
-            this.$PC = -1;
+            this.f__this.loop = 1;
+            this.f__this.TweenStart();
+            this._PC = -1;
         Label_0086:
             return 0;
         Label_0088:
@@ -7638,7 +7638,7 @@ public class iTween : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
 
@@ -7647,7 +7647,7 @@ public class iTween : MonoBehaviour
             [DebuggerHidden]
             get
             {
-                return this.$current;
+                return this._current;
             }
         }
     }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class EncyclopediaContainerTowers : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map9;
+    private static Dictionary<string, int> switchmap9;
     private EncyclopediaTowerItem archerLevel1;
     private EncyclopediaTowerItem archerLevel2;
     private EncyclopediaTowerItem archerLevel3;
@@ -201,7 +201,7 @@ public class EncyclopediaContainerTowers : MonoBehaviour
         {
             goto Label_03D4;
         }
-        if (<>f__switch$map9 != null)
+        if (switchmap9 != null)
         {
             goto Label_0127;
         }
@@ -226,9 +226,9 @@ public class EncyclopediaContainerTowers : MonoBehaviour
         dictionary.Add("mage_level3", 0x11);
         dictionary.Add("mage_arcane", 0x12);
         dictionary.Add("mage_sorcerer", 0x13);
-        <>f__switch$map9 = dictionary;
+        switchmap9 = dictionary;
     Label_0127:
-        if (<>f__switch$map9.TryGetValue(str, &num) == null)
+        if (switchmap9.TryGetValue(str, &num) == null)
         {
             goto Label_03D4;
         }

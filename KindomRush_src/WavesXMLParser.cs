@@ -8,9 +8,9 @@ using UnityEngine;
 public class WavesXMLParser : SmallXmlParser.IContentHandler
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$mapE;
+    private static Dictionary<string, int> switchmapE;
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$mapF;
+    private static Dictionary<string, int> switchmapF;
     private string currentValue;
     public Level level;
     private const string LEVEL_KEY = "waves";
@@ -131,7 +131,7 @@ public class WavesXMLParser : SmallXmlParser.IContentHandler
         {
             goto Label_0208;
         }
-        if (<>f__switch$mapF != null)
+        if (switchmapF != null)
         {
             goto Label_0043;
         }
@@ -139,9 +139,9 @@ public class WavesXMLParser : SmallXmlParser.IContentHandler
         dictionary.Add("waves", 0);
         dictionary.Add("wave", 1);
         dictionary.Add("spawn", 2);
-        <>f__switch$mapF = dictionary;
+        switchmapF = dictionary;
     Label_0043:
-        if (<>f__switch$mapF.TryGetValue(str, &num) == null)
+        if (switchmapF.TryGetValue(str, &num) == null)
         {
             goto Label_0208;
         }
@@ -218,7 +218,7 @@ public class WavesXMLParser : SmallXmlParser.IContentHandler
         {
             goto Label_00CB;
         }
-        if (<>f__switch$mapE != null)
+        if (switchmapE != null)
         {
             goto Label_0043;
         }
@@ -226,9 +226,9 @@ public class WavesXMLParser : SmallXmlParser.IContentHandler
         dictionary.Add("waves", 0);
         dictionary.Add("wave", 1);
         dictionary.Add("spawn", 2);
-        <>f__switch$mapE = dictionary;
+        switchmapE = dictionary;
     Label_0043:
-        if (<>f__switch$mapE.TryGetValue(str, &num) == null)
+        if (switchmapE.TryGetValue(str, &num) == null)
         {
             goto Label_00CB;
         }

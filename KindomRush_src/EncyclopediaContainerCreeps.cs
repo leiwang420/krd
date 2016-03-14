@@ -6,7 +6,7 @@ using UnityEngine;
 public class EncyclopediaContainerCreeps : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map8;
+    private static Dictionary<string, int> switchmap8;
     private EncyclopediaCreepItem bandit;
     private EncyclopediaCreepItem brigand;
     private EncyclopediaCreepPageButton buttonPage1;
@@ -604,7 +604,7 @@ public class EncyclopediaContainerCreeps : MonoBehaviour
         {
             goto Label_0B81;
         }
-        if (<>f__switch$map8 != null)
+        if (switchmap8 != null)
         {
             goto Label_02FB;
         }
@@ -665,9 +665,9 @@ public class EncyclopediaContainerCreeps : MonoBehaviour
         dictionary.Add("Gulaemon", 0x35);
         dictionary.Add("Cerberus", 0x36);
         dictionary.Add("Demon Moloch", 0x37);
-        <>f__switch$map8 = dictionary;
+        switchmap8 = dictionary;
     Label_02FB:
-        if (<>f__switch$map8.TryGetValue(str, &num) == null)
+        if (switchmap8.TryGetValue(str, &num) == null)
         {
             goto Label_0B81;
         }

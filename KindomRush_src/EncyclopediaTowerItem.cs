@@ -6,7 +6,7 @@ using UnityEngine;
 public class EncyclopediaTowerItem : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$mapB;
+    private static Dictionary<string, int> switchmapB;
     private EncyclopediaContainerTowers containerTowers;
     private bool selected;
     private PackedSprite sprite;
@@ -38,7 +38,7 @@ public class EncyclopediaTowerItem : MonoBehaviour
         {
             goto Label_03F9;
         }
-        if (<>f__switch$mapB != null)
+        if (switchmapB != null)
         {
             goto Label_00EC;
         }
@@ -59,9 +59,9 @@ public class EncyclopediaTowerItem : MonoBehaviour
         dictionary.Add("artillery_level3", 13);
         dictionary.Add("artillery_bfg", 14);
         dictionary.Add("artillery_tesla", 15);
-        <>f__switch$mapB = dictionary;
+        switchmapB = dictionary;
     Label_00EC:
-        if (<>f__switch$mapB.TryGetValue(str, &num) == null)
+        if (switchmapB.TryGetValue(str, &num) == null)
         {
             goto Label_03F9;
         }

@@ -7,7 +7,7 @@ using UnityEngine;
 public class AchievementItem : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map7;
+    private static Dictionary<string, int> switchmap7;
     private PackedSprite icon;
     private Transform textOff;
     private Transform textOn;
@@ -36,7 +36,7 @@ public class AchievementItem : MonoBehaviour
         {
             goto Label_203E;
         }
-        if (<>f__switch$map7 != null)
+        if (switchmap7 != null)
         {
             goto Label_0361;
         }
@@ -105,9 +105,9 @@ public class AchievementItem : MonoBehaviour
         dictionary.Add("Army of one", 0x3d);
         dictionary.Add("Dine in Hell", 0x3e);
         dictionary.Add("Hell-o!", 0x3f);
-        <>f__switch$map7 = dictionary;
+        switchmap7 = dictionary;
     Label_0361:
-        if (<>f__switch$map7.TryGetValue(str, &num) == null)
+        if (switchmap7.TryGetValue(str, &num) == null)
         {
             goto Label_203E;
         }

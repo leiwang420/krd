@@ -7,7 +7,7 @@ using UnityEngine;
 public class CreepSpawner : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map4;
+    private static Dictionary<string, int> switchmap4;
     public Creep abomination;
     public Creep bandit;
     public Creep blackburnBoss;
@@ -146,7 +146,7 @@ public class CreepSpawner : MonoBehaviour
         {
             goto Label_0796;
         }
-        if (<>f__switch$map4 != null)
+        if (switchmap4 != null)
         {
             goto Label_034A;
         }
@@ -214,9 +214,9 @@ public class CreepSpawner : MonoBehaviour
         dictionary.Add("EnemyWererat", 60);
         dictionary.Add("EnemyWitch", 0x3d);
         dictionary.Add("EnemyBlackburnBoss", 0x3e);
-        <>f__switch$map4 = dictionary;
+        switchmap4 = dictionary;
     Label_034A:
-        if (<>f__switch$map4.TryGetValue(str, &num) == null)
+        if (switchmap4.TryGetValue(str, &num) == null)
         {
             goto Label_0796;
         }

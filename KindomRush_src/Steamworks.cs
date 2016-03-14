@@ -8,7 +8,7 @@ using UnityEngine;
 public class Steamworks : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Steam <SteamInterface>k__BackingField;
+    private static Steam _SteamInterface_k__BackingField;
     private static Steamworks activeInstance;
     private string status;
 

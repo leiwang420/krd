@@ -7,7 +7,7 @@ using UnityEngine;
 public class TooltipTower : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map5;
+    private static Dictionary<string, int> switchmap5;
     protected PackedSprite background;
     protected Transform containerArmor;
     protected Transform containerDamage;
@@ -428,7 +428,7 @@ public class TooltipTower : MonoBehaviour
         {
             goto Label_5D2F;
         }
-        if (<>f__switch$map5 != null)
+        if (switchmap5 != null)
         {
             goto Label_0246;
         }
@@ -476,9 +476,9 @@ public class TooltipTower : MonoBehaviour
         dictionary.Add("Sell", 40);
         dictionary.Add("ElfTower", 0x29);
         dictionary.Add("Elf", 0x2a);
-        <>f__switch$map5 = dictionary;
+        switchmap5 = dictionary;
     Label_0246:
-        if (<>f__switch$map5.TryGetValue(str, &num) == null)
+        if (switchmap5.TryGetValue(str, &num) == null)
         {
             goto Label_5D2F;
         }

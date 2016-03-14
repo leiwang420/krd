@@ -19,6 +19,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -31,8 +32,12 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Reference Include="UnityEngine" />
-    <Reference Include="SteamworksManaged" />
+    <Reference Include="Mono.Security">
+      <HintPath>dll\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamworksManaged">
+      <HintPath>dll\SteamworksManaged.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Global.cs" />
@@ -555,5 +560,8 @@
     <Compile Include="GUIDFromPathDelegate.cs" />
     <Compile Include="GetAssetPathDelegate.cs" />
     <Compile Include="AssetLoaderDelegate.cs" />
+    <Reference Include="UnityEngine">
+      <HintPath>dll\UnityEngine.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

@@ -6,7 +6,7 @@ using UnityEngine;
 public sealed class IronUtils : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map6;
+    private static Dictionary<string, int> switchmap6;
 
     public IronUtils()
     {
@@ -99,7 +99,7 @@ public sealed class IronUtils : MonoBehaviour
         {
             goto Label_04F7;
         }
-        if (<>f__switch$map6 != null)
+        if (switchmap6 != null)
         {
             goto Label_02C8;
         }
@@ -157,9 +157,9 @@ public sealed class IronUtils : MonoBehaviour
         dictionary.Add("EnemyDemonFlareon", 50);
         dictionary.Add("EnemyRottenLesser", 0x33);
         dictionary.Add("EnemyMyconidBoss", 0x34);
-        <>f__switch$map6 = dictionary;
+        switchmap6 = dictionary;
     Label_02C8:
-        if (<>f__switch$map6.TryGetValue(str, &num) == null)
+        if (switchmap6.TryGetValue(str, &num) == null)
         {
             goto Label_04F7;
         }

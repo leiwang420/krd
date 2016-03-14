@@ -6,7 +6,7 @@ using UnityEngine;
 public class User : MonoBehaviour
 {
     [CompilerGenerated]
-    private static string <Path>k__BackingField;
+    private static string _Path_k__BackingField;
     private IUser user;
 
     public User()
@@ -39,12 +39,12 @@ public class User : MonoBehaviour
         [CompilerGenerated]
         get
         {
-            return <Path>k__BackingField;
+            return _Path_k__BackingField;
         }
         [CompilerGenerated]
         private set
         {
-            <Path>k__BackingField = value;
+            _Path_k__BackingField = value;
             return;
         }
     }

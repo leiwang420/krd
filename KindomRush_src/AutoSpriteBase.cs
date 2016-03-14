@@ -448,10 +448,10 @@ public abstract class AutoSpriteBase : SpriteBase, ISpriteAggregator, ISpritePac
         return -1;
     }
 
-    GameObject ISpriteAggregator.get_gameObject()
-    {
-        return base.gameObject;
-    }
+    //GameObject ISpriteAggregator.get_gameObject()
+    //{
+    //    return base.gameObject;
+    //}
 
     void ISpriteAggregator.SetUVs(Rect uvs)
     {
@@ -459,26 +459,26 @@ public abstract class AutoSpriteBase : SpriteBase, ISpriteAggregator, ISpritePac
         return;
     }
 
-    SpriteRoot.ANCHOR_METHOD ISpritePackable.get_Anchor()
-    {
-        return base.Anchor;
-    }
+    //SpriteRoot.ANCHOR_METHOD ISpritePackable.get_Anchor()
+    //{
+    //    return base.Anchor;
+    //}
 
-    Color ISpritePackable.get_Color()
-    {
-        return base.Color;
-    }
+    //Color ISpritePackable.get_Color()
+    //{
+    //    return base.Color;
+    //}
 
-    GameObject ISpritePackable.get_gameObject()
-    {
-        return base.gameObject;
-    }
+    //GameObject ISpritePackable.get_gameObject()
+    //{
+    //    return base.gameObject;
+    //}
 
-    void ISpritePackable.set_Color(Color value)
-    {
-        base.Color = value;
-        return;
-    }
+    //void ISpritePackable.set_Color(Color value)
+    //{
+    //    base.Color = value;
+    //    return;
+    //}
 
     public override void PlayAnim(int index)
     {

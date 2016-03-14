@@ -6,7 +6,7 @@ using UnityEngine;
 public class NotificationAchievement : MonoBehaviour
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$mapC;
+    private static Dictionary<string, int> switchmapC;
     private Transform currentIcon;
     private Transform iconAcdc;
     private Transform iconAcorn;
@@ -230,7 +230,7 @@ public class NotificationAchievement : MonoBehaviour
         {
             goto Label_16D7;
         }
-        if (<>f__switch$mapC != null)
+        if (switchmapC != null)
         {
             goto Label_03D3;
         }
@@ -302,9 +302,9 @@ public class NotificationAchievement : MonoBehaviour
         dictionary.Add("killMushroom", 0x40);
         dictionary.Add("spore", 0x41);
         dictionary.Add("stillCountsAsOne", 0x42);
-        <>f__switch$mapC = dictionary;
+        switchmapC = dictionary;
     Label_03D3:
-        if (<>f__switch$mapC.TryGetValue(str, &num) == null)
+        if (switchmapC.TryGetValue(str, &num) == null)
         {
             goto Label_16D7;
         }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class BuildTerrainClickable : Clickable
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$map3;
+    private static Dictionary<string, int> switch_map3;
     public ArcherTower archer;
     public TowerButton archerButton;
     public ConstructingTower archerConstruction;
@@ -115,7 +115,7 @@ public class BuildTerrainClickable : Clickable
         {
             goto Label_0112;
         }
-        if (<>f__switch$map3 != null)
+        if (switch_map3 != null)
         {
             goto Label_005B;
         }
@@ -125,9 +125,9 @@ public class BuildTerrainClickable : Clickable
         dictionary.Add("BarrackLvl1", 2);
         dictionary.Add("MageLvl1", 3);
         dictionary.Add("locked", 4);
-        <>f__switch$map3 = dictionary;
+        switch_map3 = dictionary;
     Label_005B:
-        if (<>f__switch$map3.TryGetValue(str, &num) == null)
+        if (switch_map3.TryGetValue(str, &num) == null)
         {
             goto Label_0112;
         }

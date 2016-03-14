@@ -9,7 +9,7 @@ using System.Text;
 public class SmallXmlParser
 {
     [CompilerGenerated]
-    private static Dictionary<string, int> <>f__switch$mapD;
+    private static Dictionary<string, int> switchmapD;
     private AttrListImpl attributes;
     private StringBuilder buffer;
     private int column;
@@ -796,7 +796,7 @@ public class SmallXmlParser
         {
             goto Label_011A;
         }
-        if (<>f__switch$mapD != null)
+        if (switchmapD != null)
         {
             goto Label_008A;
         }
@@ -806,9 +806,9 @@ public class SmallXmlParser
         dictionary.Add("apos", 2);
         dictionary.Add("lt", 3);
         dictionary.Add("gt", 4);
-        <>f__switch$mapD = dictionary;
+        switchmapD = dictionary;
     Label_008A:
-        if (<>f__switch$mapD.TryGetValue(str2, &num) == null)
+        if (switchmapD.TryGetValue(str2, &num) == null)
         {
             goto Label_011A;
         }
